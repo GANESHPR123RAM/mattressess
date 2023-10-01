@@ -1,0 +1,883 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, 'Roboto', sans-serif;
+    border: border-box;
+    text-decoration: none;
+
+}
+
+.homepage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("mettress.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*navbar*/
+.navbar {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    column-gap: 5%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: bisque;
+}
+
+.k1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1%;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.logo {
+    width: 14%;
+    margin-top: 0%;
+
+}
+
+.i {
+
+    justify-content: center;
+
+}
+
+.home {
+    width: 15%;
+    text-align: center;
+
+}
+
+.select1 {
+    color: black;
+    background-color: transparent;
+    border: thin solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    width: 100%;
+
+
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+
+
+
+
+}
+
+.select2 {
+    color: black;
+    border: thin solid transparent;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 0em 0.5em 0em;
+    width: 100%;
+
+
+
+}
+
+.select3 {
+    color: black;
+
+    border: thin solid transparent;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    width: 100%;
+    height: 100%;
+    background-image: url("search.png");
+    background-size: 98% 98%;
+
+}
+
+.mettresses {
+    width: 20%;
+    text-align: center;
+
+
+
+}
+
+.select1:hover {
+    background-color: rgb(241, 222, 200);
+    color: rgb(0, 0, 0);
+}
+
+.select2:hover {
+    border: thin #6b00e5 solid;
+}
+
+
+.pillows {
+    width: 20%;
+    text-align: center;
+}
+
+.accessories {
+    width: 20%;
+    text-align: center;
+}
+
+.k2 {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.searchbar {
+    width: 60%;
+    display: flex;
+
+    text-align: center;
+
+
+
+}
+
+.searchicon {
+    width: 10%;
+    padding: auto;
+    height: 42px;
+
+
+}
+
+
+.search {
+    width: 78%;
+
+
+}
+
+.addcard {
+    width: 18%;
+    text-align: center;
+
+
+}
+
+.profile {
+    width: 18%;
+    text-align: center;
+}
+
+/*content1*/
+.contener {
+    display: flex;
+
+    width: 100%;
+    height: 92vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.c1 {
+    width: 100%;
+    height: 45%;
+}
+
+.c2 {
+    width: 100%;
+    height: 25%;
+}
+
+.content1 {
+    display: flex;
+    color: rgb(255, 249, 249);
+    flex-direction: column;
+    font-size: 3rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-shadow: 1cap;
+    width: 100%;
+    height: 75%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shopnow {
+    border-radius: 4px;
+    border: thin solid black;
+    box-shadow: inset;
+    width: 15%;
+    height: 25%;
+    background-color: rgb(244, 183, 0);
+    font-size: medium;
+    font-weight: bold;
+}
+
+/*content2*/
+.content2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    background-color: rgba(24, 21, 39, 0.89);
+
+}
+
+.abautus {
+    font-size: 2rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: aliceblue;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.im1 {
+    width: 25%;
+    height: 60vh;
+    background-image: url("Mattress1.webp");
+    background-size: cover;
+    margin-top: 8vh;
+    border-radius: 6px;
+}
+
+.im2 {
+    width: 25%;
+    height: 60vh;
+    background-image: url("mattress2.webp");
+    background-size: cover;
+    margin-top: 30vh;
+    margin-bottom: 8vh;
+    border-radius: 6px;
+}
+
+/*content3*/
+.content3 {
+
+    width: 100%;
+    height: 100vh;
+    border-radius: 6px;
+    background-color: rgba(24, 21, 39, 0.89);
+
+
+
+}
+
+.heding {
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.sleepsolu {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 2%;
+}
+
+.offer {
+
+    display: block;
+    padding: 2%;
+}
+
+.b1 {
+    color: black;
+    background-color: rgb(181, 173, 223);
+}
+
+.im3 {
+    width: 50%;
+    height: 94vh;
+    background-image: url("mattress3.png");
+    background-size: cover;
+    margin-top: 1vh;
+    border-radius: 6px;
+}
+
+.im45 {
+    width: 48%;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2%;
+    margin-top: 1vh;
+}
+
+.im4 {
+    width: 100%;
+    height: 47vh;
+    background-image: url("Pillows1.jpg");
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+.im5 {
+    width: 100%;
+    height: 47vh;
+    background-image: url("blanket.jpg");
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.content4 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(24, 21, 39, 0.89);
+
+}
+
+.heading1 {
+    width: 100%;
+    height: 4vh;
+
+}
+
+.slideshow-container {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.mySlides {
+    width: 25%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.p1 {
+    width: 100%;
+    height: 35vh;
+
+    border-radius: 8px;
+    background-image: url("sm1.webp");
+    background-size: cover;
+}
+
+.p2 {
+    width: 100%;
+    height: 35vh;
+
+    border-radius: 8px;
+    background-image: url("sm2.webp");
+    background-size: cover;
+}
+
+.p3 {
+    width: 100%;
+    height: 35vh;
+
+    border-radius: 8px;
+    background-image: url("sm3.webp");
+    background-size: cover;
+}
+
+.cont1 {
+    width: 96%;
+    height: 33vh;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Roboto';
+    border-radius: 4px;
+    text-align: start;
+    line-height: 1.7em;
+    padding: 2%;
+
+
+
+}
+
+.AtC {
+    background-color: #6b00e5;
+    text-align: center;
+    border-radius: 4px;
+    border: thin solid transparent;
+    width: 80%;
+    height: 5vh;
+    font-size: medium;
+    font-family: 'Roboto';
+    font-weight: bold;
+
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: -2vw;
+
+
+}
+
+.AtC:hover {
+    border: thin solid #030204;
+    background-color: #e58200;
+
+}
+
+.emoj {
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+
+.ha {
+
+    font-size: 2rem;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: aliceblue;
+    display: inline-block;
+
+}
+
+.hb {
+
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(1, 1, 1);
+    display: flex;
+    display: inline-block;
+}
+
+.hb:hover {
+    background-color: rgb(255, 191, 0);
+}
+
+
+
+
+/*content5*/
+.content5 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(24, 21, 39, 0.89);
+
+    justify-content: space-around;
+
+}
+
+.ri {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.reting {
+    width: 50%;
+    height: 70vh;
+    background-color: aqua;
+    padding: 2%;
+    margin: 2%;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    line-height: 1.5em;
+}
+
+.pr {
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    padding-left: 0%;
+    margin: 5px;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 6vh;
+
+}
+
+.bn1 {
+    width: 30%;
+    height: 5vh;
+    background-color: #6b00e5;
+    border-radius: 4px;
+    border: thin solid transparent;
+    color: aliceblue;
+}
+
+.nm1 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    line-height: 1.5em;
+
+
+}
+
+.inm1 {
+    width: 40%;
+    height: 70vh;
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    background-image: url("img2.png");
+    background-size: 100% 100%;
+
+}
+
+.heading2 {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: azure;
+}
+
+
+
+/*content7*/
+.content6 {
+    width: 100%;
+    height: 100vh;
+    background-color: #131A22;
+
+
+}
+
+.name {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3em;
+    color: beige;
+    padding-top: 10vh;
+
+}
+
+.name1 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3em;
+    color: beige;
+
+}
+
+
+.company {
+    width: 10%;
+
+}
+
+.support {
+    width: 15%;
+}
+
+.account {
+    width: 15%;
+}
+
+.media {
+    width: 10%;
+}
+
+.connect {
+    width: 20%;
+}
+
+.src {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+
+}
+
+.pre1 {
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+
+}
+
+.in1 {
+    width: 40%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.name2 {
+    width: 70%;
+    height: 5vh;
+
+}
+
+.copyright {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+
+}
+
+@media (max-width:820px) {
+
+
+    .content1 {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .abautus {
+        width: 100%;
+        height: 100vh;
+
+
+    }
+
+    .im1 {
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .im2 {
+        width: 100%;
+        height: 100vh;
+        margin: 0%;
+        padding: 0%;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content3 {
+        width: 100%;
+        height: 148vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .heding {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sleepsolu {
+        width: 100%;
+        height: 138vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .offer {
+        text-align: center;
+
+    }
+
+    .im3 {
+        width: 100%;
+        height: 46vh;
+
+    }
+
+    .im45 {
+        width: 100%;
+        height: 95vh;
+        row-gap: 1.5vh;
+    }
+
+    .im4 {
+        width: 100%;
+        height: 46vh;
+    }
+
+    .im5 {
+        width: 100%;
+        height: 46vh;
+    }
+
+    .content4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300vh;
+
+        justify-content: center;
+        align-items: center;
+        margin-top: 90vh;
+
+    }
+
+    .ha {
+        color: black;
+    }
+
+    .hh {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .heding1 {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .slideshow-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 290vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mySlides {
+        width: 100%;
+        height: 80vh;
+
+    }
+
+    .p3 {
+        background-size: 100% 100%;
+    }
+
+    .p2 {
+        background-size: 100% 100%;
+    }
+
+    .p1 {
+        background-size: 100% 100%;
+    }
+
+
+    .content5 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 115vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading2 {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ri {
+        width: 100%;
+        height: 105vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reting {
+        width: 100%;
+        height: 55vh;
+        text-align: center;
+
+    }
+
+    .pr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inm1 {
+        width: 100%;
+        height: 55vh;
+      
+    }
+
+
+}
